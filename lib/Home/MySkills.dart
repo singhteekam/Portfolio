@@ -56,6 +56,12 @@ class MySkills extends StatelessWidget {
               fill: 0.55,
             ),
             Indicator(
+              name: "Javascript",
+              percent: "60%",
+              color: Colors.yellow,
+              fill: 0.6,
+            ),
+            Indicator(
               name: "C",
               percent: "60%",
               color: Colors.orange,

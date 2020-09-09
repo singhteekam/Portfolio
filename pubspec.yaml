@@ -27,6 +27,7 @@ dependencies:
   url_launcher: ^5.4.2
   flutter_signin_button:
   percent_indicator:
+  google_fonts:
 
 dev_dependencies:
   flutter_test:

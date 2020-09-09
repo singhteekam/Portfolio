@@ -24,26 +24,86 @@ class Projects extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Project(
-                    projectName: "YouChat",
+                    projectName: "SEI",
                     year: "2020",
-                    desc: "Connect with everyone using this Chat App.First,you have to register yourself with Email&Password and after that you can chat with active users.",
-                    techUsed: "Flutter",
-                    type: "App",
+                    desc: "Somnath Education Institute Official Website.",
+                    techUsed: "Node.js",
+                    type: "Web",
                     // icon: Icon(Icons.chat,color:Colors.black),
-                    url: 'https://singhteekam.github.io/ChatApp/#/',
+                    url: 'http://somnatheducation.herokuapp.com/',
                   ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child:  Project(
-                    projectName: "Alumni Tracking",
+                      child: Project(
+                    projectName: "My Diary",
                     year: "2020",
-                    desc: "Alumni Tracking System.",
-                    techUsed: "HTML,CSS,django,postgresql",
-                    type: "Web",
+                    desc: "Personal Diary app.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
                   ),
-                    )
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "KBC",
+                    year: "2020",
+                    desc: "Kaun Banega Crorepati Game with lifelines.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "TicTacToe",
+                    year: "2020",
+                    desc: "Play Tic Tac Toe Game.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "YouChat",
+                    year: "2020",
+                    desc: "Private and Group chat application.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "PlayMusic",
+                    year: "2020",
+                    desc: "Music Player application.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                  //   Padding(
+                  //     padding: const EdgeInsets.all(8.0),
+                  //     child:  Project(
+                  //   projectName: "Alumni Tracking",
+                  //   year: "2020",
+                  //   desc: "Alumni Tracking System.",
+                  //   techUsed: "HTML,CSS,django,postgresql",
+                  //   type: "Web",
+                  //   url: '',
+                  // ),
+                  //   )
                   ],
                 ),
               ],
@@ -63,27 +123,88 @@ class Projects extends StatelessWidget {
                     child: Column(
                     children: <Widget>[
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Project(
-                          projectName: "YouChat",
-                          year: "2020",
-                          desc: "Connect with everyone using this Chat App.First,you have to register yourself with Email&Password and after that you can chat with active users.",
-                          techUsed: "Flutter",
-                          type: "App",
-                          url: 'https://singhteekam.github.io/ChatApp/#/',
-                        ),
-                      ),
-                      Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Project(
-                      projectName: "Alumni Tracking",
-                      year: "2020",
-                      desc: "Alumni Tracking System.",
-                      techUsed: "HTML,CSS,django,postgresql",
-                      type: "Web",
-                      url: '',
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "SEI",
+                    year: "2020",
+                    desc: "Somnath Education Institute Official Website.",
+                    techUsed: "Node.js",
+                    type: "Web",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: 'http://somnatheducation.herokuapp.com/',
+                  ),
                     ),
-                  )
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "My Diary",
+                    year: "2020",
+                    desc: "Personal Diary app.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "KBC",
+                    year: "2020",
+                    desc: "Kaun Banega Crorepati Game with lifelines.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "TicTacToe",
+                    year: "2020",
+                    desc: "Play Tic Tac Toe Game.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "YouChat",
+                    year: "2020",
+                    desc: "Private and Group chat application.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Project(
+                    projectName: "PlayMusic",
+                    year: "2020",
+                    desc: "Music Player application.",
+                    techUsed: "Flutter",
+                    type: "App",
+                    // icon: Icon(Icons.chat,color:Colors.black),
+                    url: '',
+                  ),
+                    ),
+                  //     Padding(
+                  //   padding: const EdgeInsets.all(8.0),
+                  //   child: Project(
+                  //     projectName: "Alumni Tracking",
+                  //     year: "2020",
+                  //     desc: "Alumni Tracking System.",
+                  //     techUsed: "HTML,CSS,django,postgresql",
+                  //     type: "Web",
+                  //     url: '',
+                  //   ),
+                  // )
                     ],
                   ),
                 ),
@@ -126,7 +247,7 @@ class Project extends StatelessWidget {
           ? MediaQuery.of(context).size.width * 0.9
           : MediaQuery.of(context).size.width * 0.45,
       height: ResponsiveWidget.isSmallScreen(context)
-          ? MediaQuery.of(context).size.height * 0.50
+          ? MediaQuery.of(context).size.height * 0.30
           : MediaQuery.of(context).size.height * 0.43,
       child: SingleChildScrollView(
           child: Padding(
@@ -161,24 +282,21 @@ class Project extends StatelessWidget {
                 style: TextStyle(
                     decoration: TextDecoration.underline,
                     fontWeight: FontWeight.bold)),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                width: ResponsiveWidget.isSmallScreen(context)
-                    ? MediaQuery.of(context).size.width * 0.7
-                    : MediaQuery.of(context).size.width * 0.7,
-                height: ResponsiveWidget.isSmallScreen(context)
-                    ? MediaQuery.of(context).size.height * 0.15
-                    : MediaQuery.of(context).size.height * 0.15,
-                child: SingleChildScrollView(
-                  child: Text(
-                      desc,
-                      textScaleFactor: 1.2,
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                      )),
-                ),
+            Container(
+              width: ResponsiveWidget.isSmallScreen(context)
+                  ? MediaQuery.of(context).size.width * 0.7
+                  : MediaQuery.of(context).size.width * 0.7,
+              height: ResponsiveWidget.isSmallScreen(context)
+                  ? MediaQuery.of(context).size.height * 0.085
+                  : MediaQuery.of(context).size.height * 0.15,
+              child: SingleChildScrollView(
+                child: Text(
+                    desc,
+                    textScaleFactor: 1.2,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    )),
               ),
             ),
             Column(
