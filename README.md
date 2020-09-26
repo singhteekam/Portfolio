@@ -1,7 +1,8 @@
 # Portfolio
 
 ## Screenshots
-   - ![Screenshot1](https://drive.google.com/uc?export=view&id=1OvhvYeq1CgbLUTKljR_4PZOKA4Y7gud8 = 250x400)
-   - ![Screenshot2](https://drive.google.com/uc?export=view&id=1OxNwMyYtbAlotnoQ39M07JJsHEhN6pfH)
-   - ![Screenshot3](https://drive.google.com/uc?export=view&id=1P09GKFOoSiRZDOFlnhCpVFmBCFJ7Imh_)
-   - ![Screenshot4](https://drive.google.com/uc?export=view&id=1PF9MWmaO22sJQvbecm6DbKKlGH2U4ecP)
+   - ![Screenshot1](https://github.com/singhteekam/Portfolio/blob/master/Scnshots/Screenshot_20200926-232249.jpg?raw=true)
+   - ![Screenshot2](https://github.com/singhteekam/Portfolio/blob/master/Scnshots/Screenshot_20200926-232256.jpg?raw=true)
+   - ![Screenshot3](https://github.com/singhteekam/Portfolio/blob/master/Scnshots/Screenshot_20200926-232321.jpg?raw=true)
+   - ![Screenshot4](https://github.com/singhteekam/Portfolio/blob/master/Scnshots/Screenshot_20200926-232325.jpg?raw=true)
+   - <img src="https://github.com/singhteekam/Portfolio/blob/master/Scnshots/Screenshot_20200926-232249.jpg?raw=true" alt="Scnshot1" height="400px" width="250px">
