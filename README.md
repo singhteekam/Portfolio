@@ -1,4 +1,4 @@
 # Portfolio
 
 ## Screenshots
-   - ![Screenshot1](https://photos.app.goo.gl/sgDfhP4fWeCzjDAS7)
+   - ![Screenshot1](https://drive.google.com/file/d/1OvhvYeq1CgbLUTKljR_4PZOKA4Y7gud8/view?usp=sharing)
