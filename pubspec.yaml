@@ -28,6 +28,7 @@ dependencies:
   flutter_signin_button:
   percent_indicator:
   google_fonts:
+  flutter_icons:
 
 dev_dependencies:
   flutter_test:

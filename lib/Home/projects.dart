@@ -1,5 +1,6 @@
 import 'package:Portfolio/responsive_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Projects extends StatelessWidget {
@@ -18,8 +19,9 @@ class Projects extends StatelessWidget {
                     color: Colors.black,
                   ),
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                Wrap(
+
+                  // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -31,6 +33,7 @@ class Projects extends StatelessWidget {
                     type: "Web",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: 'http://somnatheducation.herokuapp.com/',
+                    code: 'http://somnatheducation.herokuapp.com/'
                   ),
                     ),
                     Padding(
@@ -43,6 +46,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -55,6 +59,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -67,6 +72,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -79,6 +85,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -91,6 +98,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                   //   Padding(
@@ -132,6 +140,7 @@ class Projects extends StatelessWidget {
                     type: "Web",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: 'http://somnatheducation.herokuapp.com/',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -144,6 +153,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -156,6 +166,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -168,6 +179,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -180,6 +192,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                     Padding(
@@ -192,6 +205,7 @@ class Projects extends StatelessWidget {
                     type: "App",
                     // icon: Icon(Icons.chat,color:Colors.black),
                     url: '',
+                    code:''
                   ),
                     ),
                   //     Padding(
@@ -225,8 +239,9 @@ class Project extends StatelessWidget {
   final String type;
   // final Icon icon;
   final url;
+  final code;
 
-  const Project({Key key, this.projectName, this.year,this.desc,this.techUsed,this.type,this.url}) : super(key: key);
+  const Project({Key key, this.projectName, this.year,this.desc,this.techUsed,this.type,this.url,this.code}) : super(key: key);
 
     view(String url) async {
   if (await canLaunch(url)) {
@@ -246,9 +261,9 @@ class Project extends StatelessWidget {
       width: ResponsiveWidget.isSmallScreen(context)
           ? MediaQuery.of(context).size.width * 0.9
           : MediaQuery.of(context).size.width * 0.45,
-      height: ResponsiveWidget.isSmallScreen(context)
-          ? MediaQuery.of(context).size.height * 0.30
-          : MediaQuery.of(context).size.height * 0.43,
+      // height: ResponsiveWidget.isSmallScreen(context)
+      //     ? MediaQuery.of(context).size.height * 0.40
+      //     : MediaQuery.of(context).size.height * 0.43,
       child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
@@ -268,15 +283,23 @@ class Project extends StatelessWidget {
                         decoration: TextDecoration.underline,
                         fontWeight: FontWeight.bold)),
                 // IconButton(icon: icon, onPressed: null)
-                InkWell(
-                  onTap:()=>view(url),
-                  child: Text("View",textScaleFactor: 1.2,
-                    style: TextStyle(
-                        decoration: TextDecoration.underline,color: Colors.deepPurple,
-                        fontWeight: FontWeight.bold)),
-                )
+                Tooltip(
+                  message:"See Project",
+                    child: InkWell(
+                    onTap:()=>view(url),
+                    child: Icon(Entypo.globe,)
+                  ),
+                ),
+                 Tooltip(
+                   message: "See repository",
+                    child: InkWell(
+                    onTap:()=>view(code),
+                    child: Icon(Entypo.github)
+                ),
+                 )
               ],
             ),
+            Divider(),
             Text("Description",
                 textScaleFactor: 1.5,
                 style: TextStyle(
@@ -299,6 +322,7 @@ class Project extends StatelessWidget {
                     )),
               ),
             ),
+            Divider(),
             Column(
               // alignment: WrapAlignment.center,
               children: <Widget>[
