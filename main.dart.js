@@ -24981,7 +24981,7 @@ return P.a_($async$j4,s)},
 G:function(a){var t,s,r,q,p,o,n,m,l=this,k=null,j=new P.b4(20,20)
 j=S.cs(k,new K.bs(j,j,j,j),k,C.bO.i(0,200),k,k,C.H)
 t=F.ah(a,!1).a.a<800?F.ah(a,!1).a.a*0.9:F.ah(a,!1).a.a*0.45
-s=F.ah(a,!1).a.a<800?F.ah(a,!1).a.b*0.38:F.ah(a,!1).a.b*0.43
+s=F.ah(a,!1).a.a<800?F.ah(a,!1).a.b*0.4:F.ah(a,!1).a.b*0.43
 r=u.p
 q=T.q7(H.a([L.M(l.c,k,k,A.ae(k,k,k,k,C.a5,k,k,k,k,k,k,k,k,C.l,k,k,!0,k,k,k,k,k,k),k,1.5),L.M(l.d,k,k,A.ae(k,k,k,k,C.a5,k,k,k,k,k,k,k,k,C.l,k,k,!0,k,k,k,k,k,k),k,1.2),S.kf(R.Kg(!1,!0,L.JQ(C.vN,k,k),k,!0,k,k,k,k,k,k,k,k,new N.Mr(l),k),"See Project"),S.kf(R.Kg(!1,!0,L.JQ(C.vM,k,k),k,!0,k,k,k,k,k,k,k,k,new N.Ms(l),k),"See repository")],r),C.N,C.ll,C.O)
 p=Z.Ye()
